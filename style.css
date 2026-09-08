@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+    min-width: 1116px;
 }
 
 .section1 {
@@ -90,4 +91,118 @@ ul {
     border: none;
     max-width: 120px;
     font-size: 18px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    width: 1020px;
+    margin: 0 auto;
+    padding-top: 48px;
+    padding-bottom: 100px;
+    gap: 46px;
+}
+
+.title2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    gap: 64px;
+
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    gap: 10px;
+    
+}
+
+.image-element {
+     width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+.text-element {
+    color: rgba(0, 0,0,0.7)
+}
+
+.background-section3 { 
+    background-color: #E5E7EB;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+     width: 792px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic; 
+}
+
+.author {
+    font-weight: 900;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.section4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    width: 920px;
+    margin: 80px auto;
+    padding: 48px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta-text {
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
